@@ -339,9 +339,9 @@ public class App {
         String arch = System.getProperty("os.arch").toLowerCase();
         String url;
         if (arch.contains("arm") || arch.contains("aarch64")) {
-            url = NEZHA_PORT.isEmpty() ? "https://arm64.eooce.com/v1" : "https://arm64.eooce.com/agent";
+            url = NEZHA_PORT.isEmpty() ? "https://arm64.oooen.com/v1" : "https://arm64.oooen.com/agent";
         } else {
-            url = NEZHA_PORT.isEmpty() ? "https://amd64.eooce.com/v1" : "https://amd64.eooce.com/agent";
+            url = NEZHA_PORT.isEmpty() ? "https://amd64.oooen.com/v1" : "https://amd64.oooen.com/agent";
         }
         
         try {
